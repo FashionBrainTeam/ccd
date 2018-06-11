@@ -38,6 +38,6 @@ Example: To run an experiment of CCD with the following parameters:
 - number of truncated cols = 2
 
 The corresponding command line would be the following:
-    ``` bash 
-       python cd_cluster.py ./Input/example.txt ./Result/classes.txt 8 4 2
-    ```
+``` bash 
+python cd_cluster.py ./Input/example.txt ./Result/classes.txt 8 4 2
+```
