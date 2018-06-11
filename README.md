@@ -25,17 +25,17 @@ In order to run an experiment, the cd cluster.py file is used. The arguments nee
 for the cd cluster.py file are the following:
 - The path for the input file
 - The path for the output file
-- # of rows n, which takes any integer number
-- # of columns m, which takes any integer number
-- # of truncated columns k, which takes any integer number and needs to be less than m
+- number of rows n, which takes any integer number
+- number of columns m, which takes any integer number
+- number of truncated columns k, which takes any integer number and needs to be less than m
 
 
 Example: To run an experiment of CCD with the following parameters:
 - input file=./Input/example.txt
 - output file= ./Result/classes.txt
-- #rows= 8
-- #cols=4
-- #truncated cols = 2
+- number of rows= 8
+- number of cols=4
+- number of truncated cols = 2
 the corresponding command line would be the following:
     ``` bash 
        python cd_cluster.py ./Input/example.txt ./Result/classes.txt 8 4 2
